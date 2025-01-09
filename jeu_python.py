@@ -6,6 +6,11 @@ Created on Thu Jan  9 03:42:39 2025
 """
 
 import streamlit as st
+st.set_page_config(
+    page_title="Jeu éducatif : Tri des déchets",  # Titre de l'onglet
+    page_icon=":recycle:",  # Icône de l'onglet (optionnelle)
+    layout="wide",  # Largeur de l'application
+)
 
 # Titre du jeu
 st.title("Jeu éducatif : Tri des déchets")
